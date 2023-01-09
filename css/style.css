@@ -231,8 +231,14 @@ body {
   .card {
     height: 30em;
   }
+  .card__icon {
+    width: 5em;
+  }
   .card__title {
-    font-size: 3em;
+    font-size: 2.5em;
+  }
+  .card__description {
+    font-size: 1em;
   }
 }
 

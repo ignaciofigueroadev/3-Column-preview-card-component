@@ -117,8 +117,16 @@
     .card {
         height: 30em;
 
+        &__icon {
+            width: 5em;
+        }
+
         &__title {
-            font-size: 3em;
+            font-size: 2.5em;
+        }
+
+        &__description {
+            font-size: 1em;
         }
     }
 }
