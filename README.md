@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ignaciofigueroadev/3-Column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub ](https://github.com/ignaciofigueroadev/3-Column-preview-card-component)
+- Live Site URL: [Page](https://ignaciofigueroadev.github.io/3-Column-preview-card-component/)
 
 ## My process
 
