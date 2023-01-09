@@ -65,6 +65,7 @@
         padding: 1em;
         border-radius: 3em;
         transition: .2s ease-in-out;
+        font-family: $lexendaDeca;
     }
 
     &__button:hover {
@@ -115,5 +116,9 @@
 
     .card {
         height: 30em;
+
+        &__title {
+            font-size: 3em;
+        }
     }
 }

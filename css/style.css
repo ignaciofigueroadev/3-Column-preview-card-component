@@ -188,6 +188,7 @@ body {
   padding: 1em;
   border-radius: 3em;
   transition: 0.2s ease-in-out;
+  font-family: "Lexend Deca", sans-serif;
 }
 .card__button:hover {
   cursor: pointer;
@@ -229,6 +230,9 @@ body {
   }
   .card {
     height: 30em;
+  }
+  .card__title {
+    font-size: 3em;
   }
 }
 
