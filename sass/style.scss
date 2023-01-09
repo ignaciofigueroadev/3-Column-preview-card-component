@@ -31,7 +31,7 @@ body {
 }
 
 .card {
-    width: 20em;
+    max-width: 30em;
     height: 35em;
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ body {
     &__description {
         color: $transparentWhite;
         font-family: $lexendaDeca;
-        font-size: .80em;
+        font-size: 1em;
         line-height: 2em;
         margin: 0 3em 2em 0;
     }
@@ -114,6 +114,7 @@ body {
     }
 
     .card {
+        width: 20em;
         height: 35em;
 
         &__icon {

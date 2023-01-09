@@ -158,7 +158,7 @@ body {
 }
 
 .card {
-  width: 20em;
+  max-width: 30em;
   height: 35em;
   display: flex;
   flex-direction: column;
@@ -178,7 +178,7 @@ body {
 .card__description {
   color: rgba(255, 255, 255, 0.7490196078);
   font-family: "Lexend Deca", sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 2em;
   margin: 0 3em 2em 0;
 }
@@ -229,6 +229,7 @@ body {
     border-radius: 0 0.25em 0.25em 0;
   }
   .card {
+    width: 20em;
     height: 35em;
   }
   .card__icon {
