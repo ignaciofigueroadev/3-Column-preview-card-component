@@ -1,9 +1,9 @@
 @import 'variables';
 @import 'reset';
 
-
-.body {
+body {
     font-size: $fontSize;
+    background-color: $veryLightGray;
 }
 
 .container {
