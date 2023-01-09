@@ -31,8 +31,8 @@
 }
 
 .card {
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 35em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,21 +40,20 @@
     padding: 2em;
 
     &__icon {
-        width: 3em;
+        width: 5em;
     }
 
     &__title {
         color: $veryLightGray;
         font-family: $bigShouldersDisplay;
-        font-size: 1.75em;
-        margin: 0.75em 0 0.75em 0;
+        font-size: 3em;
         text-transform: uppercase;
     }
 
     &__description {
         color: $transparentWhite;
         font-family: $lexendaDeca;
-        font-size: .75em;
+        font-size: .80em;
         line-height: 2em;
         margin: 0 3em 2em 0;
     }
@@ -63,7 +62,7 @@
         width: 60%;
         background-color: $white;
         padding: 1em;
-        border-radius: 3em;
+        border-radius: 5em;
         transition: .2s ease-in-out;
         font-family: $lexendaDeca;
     }
@@ -115,7 +114,7 @@
     }
 
     .card {
-        height: 30em;
+        height: 35em;
 
         &__icon {
             width: 5em;
@@ -126,7 +125,11 @@
         }
 
         &__description {
-            font-size: 1em;
+            font-size: .85em;
+
+        &__button {
+            margin-top: 4em;
+        }
         }
     }
 }

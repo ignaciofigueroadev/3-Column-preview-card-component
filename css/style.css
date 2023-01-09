@@ -157,8 +157,8 @@ body {
 }
 
 .card {
-  width: 25em;
-  height: 25em;
+  width: 20em;
+  height: 35em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -166,19 +166,18 @@ body {
   padding: 2em;
 }
 .card__icon {
-  width: 3em;
+  width: 5em;
 }
 .card__title {
   color: #f2f2f2;
   font-family: "Big Shoulders Display", cursive, sans-serif;
-  font-size: 1.75em;
-  margin: 0.75em 0 0.75em 0;
+  font-size: 3em;
   text-transform: uppercase;
 }
 .card__description {
   color: rgba(255, 255, 255, 0.7490196078);
   font-family: "Lexend Deca", sans-serif;
-  font-size: 0.75em;
+  font-size: 0.8em;
   line-height: 2em;
   margin: 0 3em 2em 0;
 }
@@ -186,7 +185,7 @@ body {
   width: 60%;
   background-color: #fff;
   padding: 1em;
-  border-radius: 3em;
+  border-radius: 5em;
   transition: 0.2s ease-in-out;
   font-family: "Lexend Deca", sans-serif;
 }
@@ -229,7 +228,7 @@ body {
     border-radius: 0 0.25em 0.25em 0;
   }
   .card {
-    height: 30em;
+    height: 35em;
   }
   .card__icon {
     width: 5em;
@@ -238,7 +237,10 @@ body {
     font-size: 2.5em;
   }
   .card__description {
-    font-size: 1em;
+    font-size: 0.85em;
+  }
+  .card__description__button {
+    margin-top: 4em;
   }
 }
 
