@@ -1,0 +1,119 @@
+@import 'variables';
+@import 'reset';
+
+
+.body {
+    font-size: $fontSize;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.75em;
+
+    &__card--1 {
+        background-color: $brightOrange;
+        border-radius: .25em .25em 0 0;
+    }
+
+    &__card--2 {
+        background-color: $darkCyan;
+    }
+
+    &__card--3 {
+        background-color: $veryDarkCyan;
+        border-radius: 0 0 .25em .25em;
+    }
+}
+
+.card {
+    width: 20em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em;
+
+    &__icon {
+        width: 3em;
+    }
+
+    &__title {
+        color: $veryLightGray;
+        font-family: $bigShouldersDisplay;
+        font-size: 1.75em;
+        margin: 0.75em 0 0.75em 0;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        color: $transparentWhite;
+        font-family: $lexendaDeca;
+        font-size: .75em;
+        line-height: 2em;
+        margin: 0 3em 2em 0;
+    }
+
+    &__button {
+        width: 60%;
+        background-color: $white;
+        padding: 1em;
+        border-radius: 3em;
+        transition: .2s ease-in-out;
+    }
+
+    &__button:hover {
+        cursor: pointer;
+        color: $white;
+        border: 1px solid $white;
+        background-color: transparent;
+    }
+
+    &__button:active {
+        background-color: $white;
+        color: $veryDarkCyan;
+        transform: scale(.99);
+    }
+
+    &__button--1 {
+        color: $brightOrange;   
+    }
+
+    &__button--2 {
+        color: $darkCyan;   
+    }
+
+    &__button--3 {
+        color: $veryDarkCyan;   
+    }
+}
+
+.attribution {
+    text-align: center;
+    font-size: .75em;
+    color: $darkCyan;
+    padding: 2em;
+    
+    &__link:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 1028px) {
+    .container__card--1 {
+        border-radius: .25em 0 0 .25em;
+    }
+
+    .container__card--3 {
+        border-radius: 0 .25em .25em 0;
+    }
+
+    .card {
+        height: 30em;
+    }
+}
